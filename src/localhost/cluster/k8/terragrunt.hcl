@@ -1,6 +1,6 @@
 
 terraform {
-    source = "./../../../../../infrastructure-modules/src/localhost/cluster/k8"
+    source = "git::git@github.com:magneoe/infrastructure-modules.git//src/localhost/cluster/k8"
 }
 
 generate "provider" {
